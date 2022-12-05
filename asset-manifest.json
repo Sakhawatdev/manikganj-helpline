@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manikganj-helpline%20/static/css/main.f09766c1.css",
+    "main.js": "/manikganj-helpline%20/static/js/main.d0b1252c.js",
+    "index.html": "/manikganj-helpline%20/index.html",
+    "main.f09766c1.css.map": "/manikganj-helpline%20/static/css/main.f09766c1.css.map",
+    "main.d0b1252c.js.map": "/manikganj-helpline%20/static/js/main.d0b1252c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f09766c1.css",
+    "static/js/main.d0b1252c.js"
+  ]
+}
