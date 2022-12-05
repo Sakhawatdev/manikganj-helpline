@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Info from "./Card.json";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ParentDiv">
+      <section className="NavbarSection">
+        <Navbar />
+      </section>
+      <section className="CardSection">
+        <div className="Container">
+          <div className="Cards">
+            {Info.map((Info) => {
+              return (
+                <a href="#" className="CardLink">
+                  <div className="Card" key={Info.id}>
+                    <i className={Info.FontawsomeIcon}></i>
+                    <h2>{Info.CardName}</h2>
+                    {/* <p>amazing food</p> */}
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

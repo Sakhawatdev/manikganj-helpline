@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "CardName": "হাসপাতাল",
+    "FontawsomeIcon": "fas fa-hospital"
+  },
+
+  {
+    "id": 2,
+    "CardName": "ক্লিনিক",
+    "FontawsomeIcon": "fa-solid fa-house-chimney-medical"
+  },
+
+  {
+    "id": 3,
+    "CardName": "ব্লাড ব্যাংক",
+    "FontawsomeIcon": "fa-solid fa-hand-holding-droplet"
+  },
+  {
+    "id": 4,
+    "CardName": "অ্যাম্বুলেন্স",
+    "FontawsomeIcon": "fas fa-ambulance"
+  },
+  {
+    "id": 5,
+    "CardName": "ফায়ার সার্ভিস",
+    "FontawsomeIcon": "fa-solid fa-fire-flame-curved"
+  },
+  {
+    "id": 6,
+    "CardName": "পুলিশ স্টেশন",
+    "FontawsomeIcon": "fa-solid fa-building-shield"
+  },
+  {
+    "id": 7,
+    "CardName": "পল্লী বিদ্যুৎ",
+    "FontawsomeIcon": "fa-solid fa-bolt-lightning"
+  },
+  {
+    "id": 8,
+    "CardName": "বিশ্ববিদ্যালয়",
+    "FontawsomeIcon": "fa-solid fa-graduation-cap"
+  },
+  {
+    "id": 9,
+    "CardName": "কলেজ",
+    "FontawsomeIcon": "fa-solid fa-building-columns"
+  },
+  {
+    "id": 10,
+    "CardName": "মাদ্রাসা",
+    "FontawsomeIcon": "fa-solid fa-mosque"
+  },
+  {
+    "id": 11,
+    "CardName": "আইটি সেন্টার",
+    "FontawsomeIcon": "fa-solid fa-computer"
+  },
+  {
+    "id": 12,
+    "CardName": "পর্যটন কেন্দ্র",
+    "FontawsomeIcon": "fa-solid fa-place-of-worship"
+  },
+  {
+    "id": 13,
+    "CardName": "আদালত",
+    "FontawsomeIcon": "fa-solid fa-scale-balanced"
+  },
+  {
+    "id": 14,
+    "CardName": "পাসপোর্ট অফিস",
+    "FontawsomeIcon": "fa-solid fa-passport"
+  },
+  {
+    "id": 15,
+    "CardName": "জেলা পরিষদ",
+    "FontawsomeIcon": "fa-solid fa-city"
+  },
+  {
+    "id": 16,
+    "CardName": "পৌরসভা",
+    "FontawsomeIcon": "fa-regular fa-building"
+  },
+  {
+    "id": 17,
+    "CardName": "উপজেলা পরিষদ",
+    "FontawsomeIcon": "fa-solid fa-house"
+  },
+  {
+    "id": 18,
+    "CardName": "ইউনিয়ন পরিষদ",
+    "FontawsomeIcon": "fa-solid fa-building-un"
+  },
+  {
+    "id": 19,
+    "CardName": "ব্যাংক",
+    "FontawsomeIcon": "fa-solid fa-money-check-dollar"
+  },
+  {
+    "id": 20,
+    "CardName": "প্রাণিসম্পদ দপ্তর",
+    "FontawsomeIcon": "fa-solid fa-cow"
+  }
+]
