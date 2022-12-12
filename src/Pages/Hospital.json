@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "HospitalName": "কর্নেল মালেক মেডিকেল কলেজ,মানিকগঞ্জ",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 2,
+    "HospitalName": "মানিকগঞ্জ ডায়াবেটিক হাসপাতাল",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 3,
+    "HospitalName": "২৫০ শয্যা জেলা হাসপাতাল, মানিকগঞ্জ",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "সিংগাইর উপজেলা হেলথ কমপ্লেক্ম",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "শান্তিপুর হেলথ কমপ্লেক্ম, সিংগাইর",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "সাটুরিয়া হেলথ কমপ্লেক্ম",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "শিবালয় হেলথ কমপ্লেক্ম",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "৫০ শয্যা বিশিষ্ট ঘিওর উপজেলা স্বাস্থ্য কমপ্লেক্স",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  },
+  {
+    "id": 4,
+    "HospitalName": "উপজেলা স্বাস্থ্য কমপ্লেক্স, দৌলতপুর",
+    "MblNumbr": "017384837573",
+    "FontawsomeIconItm": "fa-solid fa-square-phone-flip"
+  }
+]

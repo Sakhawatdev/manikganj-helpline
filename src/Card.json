@@ -2,13 +2,15 @@
   {
     "id": 1,
     "CardName": "হাসপাতাল",
-    "FontawsomeIcon": "fas fa-hospital"
+    "FontawsomeIcon": "fas fa-hospital",
+    "CardLink": "./components/Pages/Hospital.js"
   },
 
   {
     "id": 2,
     "CardName": "ক্লিনিক",
-    "FontawsomeIcon": "fa-solid fa-house-chimney-medical"
+    "FontawsomeIcon": "fa-solid fa-house-chimney-medical",
+    "CardLink": "../Clinic.js"
   },
 
   {

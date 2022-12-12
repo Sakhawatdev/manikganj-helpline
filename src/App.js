@@ -2,7 +2,9 @@ import "./App.css";
 import Info from "./Card.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
+import Hospital from "./Pages/Hospital";
 function App() {
+  console.log(Info);
   return (
     <div className="ParentDiv">
       <section className="NavbarSection">
@@ -13,11 +15,10 @@ function App() {
           <div className="Cards">
             {Info.map((Info) => {
               return (
-                <a href="#" className="CardLink">
-                  <div className="Card" key={Info.id}>
+                <a href={Info.CardLink} className="CardLink" key={Info.id}>
+                  <div className="Card">
                     <i className={Info.FontawsomeIcon}></i>
                     <h2>{Info.CardName}</h2>
-                    {/* <p>amazing food</p> */}
                   </div>
                 </a>
               );
@@ -25,6 +26,7 @@ function App() {
           </div>
         </div>
       </section>
+      {/* <Hospital /> */}
     </div>
   );
 }

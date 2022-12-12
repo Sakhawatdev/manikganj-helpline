@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
-
+import logo from "../images/mjhelp1.png";
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -10,12 +10,15 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        {/* <h1>This is Navbar</h1> */}
         <nav>
-          <a href="#">
-            {" "}
-            <img src="./images/mj_helpline_box2.png"></img>{" "}
+          <a href="index.html">
+            <img className="MjLogo" src={logo} alt="no image" />
           </a>
+
+          {/* <a href="#">
+            {" "}
+            <img src="images/mj_helpline_box2.png"></img>{" "}
+          </a> */}
 
           <div>
             <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>

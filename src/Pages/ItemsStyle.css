@@ -4,72 +4,79 @@
   box-sizing: border-box;
 }
 
-.CardSection .Container {
+.HospitalCardSection .ContainerItm {
   margin-top: 100px;
 }
 
-.Container {
+.ContainerItm {
   max-width: 1200px;
   width: 100%;
   margin: auto;
 }
-.CardSection {
+
+/* ei code pore comment out kora lagbe obossoi */
+
+/* .HospitalCardSection {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.Cards {
+} */
+.CardsItm {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
 }
 
-.CardLink {
+.CardLinkItm {
   flex: 0 0 calc(33.33% - 20px);
   max-width: calc(33.33% - 20px);
   width: 100%;
   background: #347ddb;
+  display: inline-flex;
   color: #fff;
   text-decoration: none;
   padding: 20px 10px;
   margin-bottom: 25px;
   transition: 0.3s;
   border: 2px solid transparent;
-  text-align: center;
+  /* text-align: center; */
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   /* box-shadow: 2px 3px 7px 3px #2d112a; */
-  box-shadow: 0 10px 10px -5px #2d112a;
+  /* box-shadow: 0 10px 10px -5px #2d112a; */
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-/* .Card {
-  flex: 0 0 calc(33.33% - 20px);
-  max-width: calc(33.33% - 20px);
-  width: 100%;
-  background: #347ddb;
-  color: #fff;
-  padding: 20px 10px;
-  margin-bottom: 25px;
-  transition: 0.3s;
-  border: 2px solid transparent;
-  text-align: center;
-} */
-.CardLink:hover {
+.CardLinkItm:hover {
   /* border: 2px solid #f3f2f0; */
   background: #215496;
   color: #fff;
 }
 
-.Card i {
-  font-size: 40px;
-}
-.Card h2 {
+/* .CardItm h2 {
   margin: 15px 0;
 }
-.Card i {
+.CardItm i {
   font-size: 40px;
+  color: #fff;
+}
+*/
+.CardItm {
+  width: 100%;
+}
+.FontCallIcon {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  font-size: 30px;
+}
+
+.FontCallIcon a i {
+  color: #fff;
 }
 
 /* ==============responsive_start============== */
@@ -77,20 +84,20 @@
 }
 
 @media (max-width: 969px) {
-  .CardSection .Container {
+  .HospitalCardSection .ContainerItm {
     margin-top: 70px;
   }
 
-  .CardSection {
+  .HospitalCardSection {
     padding: 20px 0;
   }
-  .CardLink {
+  .CardLinkItm {
     flex: 0 0 calc(50% - 20px);
     max-width: calc(50% - 20px);
   }
 }
 @media (max-width: 500px) {
-  .CardLink {
+  .CardLinkItm {
     flex: 0 0 calc(50% - 20px);
     max-width: calc(50% - 20px);
 

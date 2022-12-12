@@ -12,7 +12,9 @@ nav {
 nav a img {
   width: 70px;
 }
-
+.MjLogo {
+  width: 70px;
+}
 #navbar {
   display: flex;
   align-items: center;
